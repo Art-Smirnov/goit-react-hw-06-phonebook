@@ -1,0 +1,15 @@
+@import '../../styles/shared';
+
+.ContactList {
+  @extend %list;
+}
+
+.ContactListItem {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+
+.ContactListItem:not(:last-child) {
+  margin-bottom: 20px;
+}

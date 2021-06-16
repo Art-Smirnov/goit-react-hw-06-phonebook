@@ -1,0 +1,43 @@
+.submit__btn {
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  outline: none;
+  padding: 3px 12px;
+  border-radius: 4px;
+}
+
+.ContactForm {
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 16px;
+  border: 1px solid #2a2a2a;
+  border-radius: 4px;
+  margin-bottom: 40px;
+}
+
+.ContactForm__input {
+  display: block;
+  padding: 12px 16px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.submit__btn {
+  width: 150px;
+  background-color: #3f51b5;
+  color: #fff;
+}
+
+.submit__btn:hover,
+.submit__btn:focus {
+  background-color: #303f9f;
+}
+/*# sourceMappingURL=ContactForm.css.map */

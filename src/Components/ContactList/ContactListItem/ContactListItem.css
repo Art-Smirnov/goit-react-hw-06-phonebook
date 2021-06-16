@@ -1,0 +1,23 @@
+.delete__btn {
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  outline: none;
+  padding: 3px 12px;
+  border-radius: 4px;
+}
+
+.ContactListItem__data {
+  font-size: 20px;
+}
+
+.delete__btn {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.delete__btn:hover,
+.delete__btn:focus {
+  background-color: #d32f2f;
+}
+/*# sourceMappingURL=ContactListItem.css.map */

@@ -1,0 +1,17 @@
+@import '../../../styles/shared';
+
+.ContactListItem__data {
+  font-size: 20px;
+}
+
+.delete__btn {
+  @extend %button;
+
+  background-color: $red;
+  color: $white;
+
+  &:hover,
+  &:focus {
+    background-color: $red-accent;
+  }
+}

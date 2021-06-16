@@ -1,0 +1,13 @@
+{
+    "version": 3,
+    "mappings": "AAMA,AIAA,YJAY,CIAJ;EACN,MAAM,EAAE,IAAI;EACZ,IAAI,EAAE,OAAO;EACb,MAAM,EAAE,OAAO;EACf,OAAO,EAAE,IAAI;EACb,OAAO,EAAE,QAAQ;EACjB,aAAa,EAAE,GAAG;CACnB;;AJXD,AAAA,sBAAsB,CAAC;EACrB,SAAS,EAAE,IAAI;CAChB;;AAED,AAAA,YAAY,CAAC;EAGX,gBAAgB,EGPZ,OAAO;EHQX,KAAK,EGJC,IAAI;CHUX;;AAVD,AAME,YANU,AAMT,MAAM,EANT,YAAY,AAOT,MAAM,CAAC;EACN,gBAAgB,EGXP,OAAO;CHYjB",
+    "sources": [
+        "ContactListItem.scss",
+        "../../../styles/shared.scss",
+        "../../../styles/_variables.scss",
+        "../../../styles/_colors.scss",
+        "../../../styles/_placeholders.scss"
+    ],
+    "names": [],
+    "file": "ContactListItem.css"
+}
