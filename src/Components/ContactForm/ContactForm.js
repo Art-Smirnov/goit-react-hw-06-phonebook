@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
+import contactsActions from '../../redux/contacts/contacts-actions';
 
 import './ContactForm.scss';
 
@@ -66,4 +68,8 @@ ContactForm.propTypes = {
   onSubmit: PropTypes.func.isRequired,
 };
 
-export default ContactForm;
+const mapDispatchToProps = dispatch => ({
+  onSubmit: obj => dispatch(contactsActions.addContact(obj)),
+});
+
+export default connect(null, mapDispatchToProps)(ContactForm);

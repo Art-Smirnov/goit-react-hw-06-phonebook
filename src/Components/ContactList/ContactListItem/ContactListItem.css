@@ -16,8 +16,7 @@
   color: #fff;
 }
 
-.delete__btn:hover,
-.delete__btn:focus {
+.delete__btn:hover, .delete__btn:focus {
   background-color: #d32f2f;
 }
 /*# sourceMappingURL=ContactListItem.css.map */

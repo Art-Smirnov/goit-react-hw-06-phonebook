@@ -14,8 +14,8 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   padding: 16px;
   border: 1px solid #2a2a2a;
   border-radius: 4px;
@@ -36,8 +36,7 @@
   color: #fff;
 }
 
-.submit__btn:hover,
-.submit__btn:focus {
+.submit__btn:hover, .submit__btn:focus {
   background-color: #303f9f;
 }
 /*# sourceMappingURL=ContactForm.css.map */
